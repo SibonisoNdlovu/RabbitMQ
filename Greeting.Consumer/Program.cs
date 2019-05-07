@@ -9,6 +9,7 @@ namespace Greeting.Consume
 {
     class Program
     {
+        //The main console that is used to retrieve and display message from the services if theres a message available.
         static void Main(string[] args)
         {
             IOC.DependencyContainer.Initialize();

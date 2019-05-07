@@ -11,6 +11,7 @@ namespace Greeting.Producer
 {
     class Program
     {
+        //This is the main project for entering a name and sending it via the messageBusHandler
         static void Main(string[] args)
         {
             IOC.DependencyContainer.Initialize();
