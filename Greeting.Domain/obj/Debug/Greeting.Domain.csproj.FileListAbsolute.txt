@@ -1,0 +1,11 @@
+C:\Users\siboniso\source\repos\Greeting\Greeting.Domain\bin\Debug\Greeting.Domain.dll
+C:\Users\siboniso\source\repos\Greeting\Greeting.Domain\bin\Debug\Greeting.Domain.pdb
+C:\Users\siboniso\source\repos\Greeting\Greeting.Domain\obj\Debug\Greeting.Domain.csprojAssemblyReference.cache
+C:\Users\siboniso\source\repos\Greeting\Greeting.Domain\obj\Debug\Greeting.Domain.csproj.CoreCompileInputs.cache
+C:\Users\siboniso\source\repos\Greeting\Greeting.Domain\obj\Debug\Greeting.Domain.dll
+C:\Users\siboniso\source\repos\Greeting\Greeting.Domain\obj\Debug\Greeting.Domain.pdb
+C:\Users\siboniso\Desktop\Greeting\Greeting.Domain\bin\Debug\Greeting.Domain.dll
+C:\Users\siboniso\Desktop\Greeting\Greeting.Domain\bin\Debug\Greeting.Domain.pdb
+C:\Users\siboniso\Desktop\Greeting\Greeting.Domain\obj\Debug\Greeting.Domain.csprojResolveAssemblyReference.cache
+C:\Users\siboniso\Desktop\Greeting\Greeting.Domain\obj\Debug\Greeting.Domain.dll
+C:\Users\siboniso\Desktop\Greeting\Greeting.Domain\obj\Debug\Greeting.Domain.pdb
