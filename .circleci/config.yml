@@ -26,21 +26,3 @@ jobs:
           root: output
           paths:
             - "*.o"
-
-  link:
-    docker:
-      - image: gcc:8.2
-    steps:
-      # instead of checking out, restore workspace (will merge all parallel containers from previous job)
-      - attach_workspace:
-          at: output
-      - run: ls -la output
-      - run: mv output/* .
-      # link the compiled files into an executable
-      - run: gcc -o program *.o
-      # confirm program exists and is executable
-      - run: ls -la
-      - run: ./program
-      # persist as artifact
-      - store_artifacts:
-          path: program
