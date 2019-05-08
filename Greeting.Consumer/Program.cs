@@ -5,10 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Greeting.Consume
+namespace Greeting.Consumer
 {
     class Program
     {
+        //The main console that is used to retrieve and display message from the services if theres a message available.
         static void Main(string[] args)
         {
             IOC.DependencyContainer.Initialize();
