@@ -1,28 +1,20 @@
 version: 2
-
-workflows:
-  version: 2
-  dist-compile:
-    jobs:
-      - compile
-      - link:
-          requires: 
-            - compile
-
-
 jobs:
-
-  compile:
-    parallelism: 2
+  build:
     docker:
-      - image: gcc:8.2
+      - image: circleci/<language>:<version TAG>
     steps:
       - checkout
-      #split all c files based on the index ID we're running on, pass subset to gcc compile
-      - run: circleci tests glob "**/*.c" | circleci tests split --split-by=filesize | xargs gcc -c 
-      # move compiled files to specific folder and persist to workspace
-      - run: mkdir output && mv *.o output
-      - persist_to_workspace:
-          root: output
-          paths:
-            - "*.o"
+      - run: <command>
+  test:
+    docker:
+      - image: circleci/<language>:<version TAG>
+    steps:
+      - checkout
+      - run: <command>
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
+      - test
