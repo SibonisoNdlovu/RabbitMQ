@@ -14,5 +14,3 @@ https://www.rabbitmq.com/#getstarted.
 No configuration needs to be done as the application will automatically detected the RabbitMQ-Server and use it to run on localhost.
 
 To run the project you need to open it using visual studio and set multiple projects as start up projects (Greeting.Producer and Greeting.Consumer).
-
-Project is fully functional.
